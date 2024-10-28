@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: black;
+    color: rgb(216, 215, 215);
+}
+
+.navlist {
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.navlist li:hover {
+    color: red;
+}
+
+/* Searchbar */
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+
+.searchbar input {
+    height: 30px;
+    width: 65%;
+    padding: 0 0 0 5px;
+    border: darkgray solid 2px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.searchbar :hover {
+    border: black solid 2px;
+}
+
+
+/* Products */
+
+.products {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    gap: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border: solid black 1px;
+    height: 270px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.products img {
+    height: 190px;
+    background-color: gray;
+    /* border: red solid 1px; */
+}
+
+.box p {
+    width: 100%;
+}
+
+.box:hover {
+    background-color: black;
+    color: white;
+
+}
